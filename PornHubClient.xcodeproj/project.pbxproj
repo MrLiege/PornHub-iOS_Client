@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CAD6B1E2CC150FF00CFB9CB /* PornHubClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD6B1D2CC150FF00CFB9CB /* PornHubClientApp.swift */; };
+		0CAD6B202CC150FF00CFB9CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD6B1F2CC150FF00CFB9CB /* ContentView.swift */; };
+		0CAD6B222CC1510700CFB9CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD6B212CC1510700CFB9CB /* Assets.xcassets */; };
+		0CAD6B252CC1510700CFB9CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD6B242CC1510700CFB9CB /* Preview Assets.xcassets */; };
+		0CAD6B2C2CC1512E00CFB9CB /* ServerVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD6B2B2CC1512E00CFB9CB /* ServerVideoModel.swift */; };
+		0CAD6B2E2CC152CF00CFB9CB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD6B2D2CC152CF00CFB9CB /* Video.swift */; };
+		0CAD6B302CC152ED00CFB9CB /* VideoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD6B2F2CC152ED00CFB9CB /* VideoDetails.swift */; };
+		0CAD6B322CC153DD00CFB9CB /* PornHubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD6B312CC153DD00CFB9CB /* PornHubEndpoint.swift */; };
+		0CAD6B342CC1540A00CFB9CB /* PornHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD6B332CC1540A00CFB9CB /* PornHubAPI.swift */; };
+		0CAD6B3D2CC1562900CFB9CB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD6B3C2CC1562900CFB9CB /* MainViewModel.swift */; };
+		0CAD6B402CC156D000CFB9CB /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 0CAD6B3F2CC156D000CFB9CB /* CombineMoya */; };
+		0CAD6B422CC156D000CFB9CB /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 0CAD6B412CC156D000CFB9CB /* Moya */; };
+		0CAD6B442CC156D000CFB9CB /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 0CAD6B432CC156D000CFB9CB /* ReactiveMoya */; };
+		0CAD6B462CC156D000CFB9CB /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 0CAD6B452CC156D000CFB9CB /* RxMoya */; };
+		0CAD6B492CC156D700CFB9CB /* CombineExt in Frameworks */ = {isa = PBXBuildFile; productRef = 0CAD6B482CC156D700CFB9CB /* CombineExt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CAD6B1A2CC150FF00CFB9CB /* PornHubClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PornHubClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CAD6B1D2CC150FF00CFB9CB /* PornHubClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PornHubClientApp.swift; sourceTree = "<group>"; };
+		0CAD6B1F2CC150FF00CFB9CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CAD6B212CC1510700CFB9CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CAD6B242CC1510700CFB9CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CAD6B2B2CC1512E00CFB9CB /* ServerVideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerVideoModel.swift; sourceTree = "<group>"; };
+		0CAD6B2D2CC152CF00CFB9CB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		0CAD6B2F2CC152ED00CFB9CB /* VideoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetails.swift; sourceTree = "<group>"; };
+		0CAD6B312CC153DD00CFB9CB /* PornHubEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PornHubEndpoint.swift; sourceTree = "<group>"; };
+		0CAD6B332CC1540A00CFB9CB /* PornHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PornHubAPI.swift; sourceTree = "<group>"; };
+		0CAD6B3C2CC1562900CFB9CB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CAD6B172CC150FF00CFB9CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAD6B422CC156D000CFB9CB /* Moya in Frameworks */,
+				0CAD6B402CC156D000CFB9CB /* CombineMoya in Frameworks */,
+				0CAD6B462CC156D000CFB9CB /* RxMoya in Frameworks */,
+				0CAD6B492CC156D700CFB9CB /* CombineExt in Frameworks */,
+				0CAD6B442CC156D000CFB9CB /* ReactiveMoya in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CAD6B112CC150FF00CFB9CB = {
+			isa = PBXGroup;
+			children = (
+				0CAD6B1C2CC150FF00CFB9CB /* PornHubClient */,
+				0CAD6B1B2CC150FF00CFB9CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CAD6B1B2CC150FF00CFB9CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD6B1A2CC150FF00CFB9CB /* PornHubClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CAD6B1C2CC150FF00CFB9CB /* PornHubClient */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD6B392CC155B800CFB9CB /* App */,
+				0CAD6B382CC155AB00CFB9CB /* Recources */,
+				0CAD6B352CC1557000CFB9CB /* Models */,
+				0CAD6B3A2CC155D300CFB9CB /* Services */,
+				0CAD6B4A2CC156F200CFB9CB /* Features */,
+				0CAD6B232CC1510700CFB9CB /* Preview Content */,
+			);
+			path = PornHubClient;
+			sourceTree = "<group>";
+		};
+		0CAD6B232CC1510700CFB9CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD6B242CC1510700CFB9CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CAD6B352CC1557000CFB9CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD6B372CC1558C00CFB9CB /* Local */,
+				0CAD6B362CC1557B00CFB9CB /* Server */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CAD6B362CC1557B00CFB9CB /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD6B2B2CC1512E00CFB9CB /* ServerVideoModel.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		0CAD6B372CC1558C00CFB9CB /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD6B2D2CC152CF00CFB9CB /* Video.swift */,
+				0CAD6B2F2CC152ED00CFB9CB /* VideoDetails.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		0CAD6B382CC155AB00CFB9CB /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD6B212CC1510700CFB9CB /* Assets.xcassets */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		0CAD6B392CC155B800CFB9CB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD6B1D2CC150FF00CFB9CB /* PornHubClientApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0CAD6B3A2CC155D300CFB9CB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD6B3B2CC155E500CFB9CB /* API */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0CAD6B3B2CC155E500CFB9CB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD6B312CC153DD00CFB9CB /* PornHubEndpoint.swift */,
+				0CAD6B332CC1540A00CFB9CB /* PornHubAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0CAD6B4A2CC156F200CFB9CB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD6B1F2CC150FF00CFB9CB /* ContentView.swift */,
+				0CAD6B3C2CC1562900CFB9CB /* MainViewModel.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CAD6B192CC150FF00CFB9CB /* PornHubClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CAD6B282CC1510700CFB9CB /* Build configuration list for PBXNativeTarget "PornHubClient" */;
+			buildPhases = (
+				0CAD6B162CC150FF00CFB9CB /* Sources */,
+				0CAD6B172CC150FF00CFB9CB /* Frameworks */,
+				0CAD6B182CC150FF00CFB9CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PornHubClient;
+			packageProductDependencies = (
+				0CAD6B3F2CC156D000CFB9CB /* CombineMoya */,
+				0CAD6B412CC156D000CFB9CB /* Moya */,
+				0CAD6B432CC156D000CFB9CB /* ReactiveMoya */,
+				0CAD6B452CC156D000CFB9CB /* RxMoya */,
+				0CAD6B482CC156D700CFB9CB /* CombineExt */,
+			);
+			productName = PornHubClient;
+			productReference = 0CAD6B1A2CC150FF00CFB9CB /* PornHubClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CAD6B122CC150FF00CFB9CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0CAD6B192CC150FF00CFB9CB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 0CAD6B152CC150FF00CFB9CB /* Build configuration list for PBXProject "PornHubClient" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CAD6B112CC150FF00CFB9CB;
+			packageReferences = (
+				0CAD6B3E2CC156D000CFB9CB /* XCRemoteSwiftPackageReference "Moya" */,
+				0CAD6B472CC156D700CFB9CB /* XCRemoteSwiftPackageReference "CombineExt" */,
+			);
+			productRefGroup = 0CAD6B1B2CC150FF00CFB9CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CAD6B192CC150FF00CFB9CB /* PornHubClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CAD6B182CC150FF00CFB9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAD6B252CC1510700CFB9CB /* Preview Assets.xcassets in Resources */,
+				0CAD6B222CC1510700CFB9CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CAD6B162CC150FF00CFB9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAD6B202CC150FF00CFB9CB /* ContentView.swift in Sources */,
+				0CAD6B322CC153DD00CFB9CB /* PornHubEndpoint.swift in Sources */,
+				0CAD6B2E2CC152CF00CFB9CB /* Video.swift in Sources */,
+				0CAD6B1E2CC150FF00CFB9CB /* PornHubClientApp.swift in Sources */,
+				0CAD6B302CC152ED00CFB9CB /* VideoDetails.swift in Sources */,
+				0CAD6B2C2CC1512E00CFB9CB /* ServerVideoModel.swift in Sources */,
+				0CAD6B342CC1540A00CFB9CB /* PornHubAPI.swift in Sources */,
+				0CAD6B3D2CC1562900CFB9CB /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0CAD6B262CC1510700CFB9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CAD6B272CC1510700CFB9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CAD6B292CC1510700CFB9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PornHubClient/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ASY9C6DNH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artyompetrichenko.PornHubClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CAD6B2A2CC1510700CFB9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PornHubClient/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ASY9C6DNH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artyompetrichenko.PornHubClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CAD6B152CC150FF00CFB9CB /* Build configuration list for PBXProject "PornHubClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CAD6B262CC1510700CFB9CB /* Debug */,
+				0CAD6B272CC1510700CFB9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CAD6B282CC1510700CFB9CB /* Build configuration list for PBXNativeTarget "PornHubClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CAD6B292CC1510700CFB9CB /* Debug */,
+				0CAD6B2A2CC1510700CFB9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0CAD6B3E2CC156D000CFB9CB /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		0CAD6B472CC156D700CFB9CB /* XCRemoteSwiftPackageReference "CombineExt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineExt.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0CAD6B3F2CC156D000CFB9CB /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CAD6B3E2CC156D000CFB9CB /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		0CAD6B412CC156D000CFB9CB /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CAD6B3E2CC156D000CFB9CB /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		0CAD6B432CC156D000CFB9CB /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CAD6B3E2CC156D000CFB9CB /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		0CAD6B452CC156D000CFB9CB /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CAD6B3E2CC156D000CFB9CB /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		0CAD6B482CC156D700CFB9CB /* CombineExt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CAD6B472CC156D700CFB9CB /* XCRemoteSwiftPackageReference "CombineExt" */;
+			productName = CombineExt;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0CAD6B122CC150FF00CFB9CB /* Project object */;
+}
